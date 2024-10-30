@@ -1,0 +1,13 @@
+custom_card_card:  # Changed plugin ID to match module name
+  ckeditor5:
+    plugins:
+      - custom_card_card.CustomCardCard  # Updated to match new plugin name
+  drupal:
+    label: 'Custom Card'
+    library: custom_card/ckeditor5.card
+    toolbar_items:
+      custom_card_card:  # Changed toolbar item ID
+        label: 'Add Card'
+    elements:
+      - <div class="custom-card">
+      - <div data-title data-media-id data-link>

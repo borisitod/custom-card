@@ -1,0 +1,9 @@
+name: Custom Card CKEditor Plugin
+type: module
+description: 'Provides a custom card CKEditor 5 plugin'
+package: Custom
+core_version_requirement: ^9.3 || ^10
+dependencies:
+  - drupal:media_library
+  - drupal:media
+  - linkit:linkit

@@ -1,0 +1,17 @@
+# custom_card.libraries.yml
+ckeditor5.card:
+  js:
+    js/build/custom_card_card.js: { minified: true }
+  css:
+    theme:
+      css/card.css: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/once
+    - core/drupal.dialog
+    - core/drupal.dialog.ajax
+    - core/drupal.ajax
+    - media_library/ui
+    - media_library/view
+    - media_library/widget
